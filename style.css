@@ -41,6 +41,13 @@ body {
     transform: rotate(90deg);
     transform-origin: 100%;
     transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.48, -0.31, 0.01, 2.16)
+}
 
+.second-hand {
+    background-color: rgba(177, 16, 16, 0.856);
+}
 
+.min-hand {
+    background-color: rgba(255, 255, 255, 0.856);
 }
