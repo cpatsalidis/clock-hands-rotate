@@ -40,5 +40,7 @@ body {
     top: 50%;
     transform: rotate(90deg);
     transform-origin: 100%;
+    transition: all 0.5s;
+
 
 }
